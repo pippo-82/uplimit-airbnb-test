@@ -182,13 +182,13 @@ with tab2_data_analysis:
 with tab3_extras:
 
     with st.expander("Prettymaps picture of Amsterdam city"):
-        img_ams = Image.open(os.getcwd() + "\Amsterdam_Prettymaps_Macao.png")
+        img_ams = Image.open(os.getcwd() + "/Amsterdam_Prettymaps_Macao.png")
         st.image(img_ams)
     with st.expander("Prettymaps picture of Amsterdam city center"):
-        img_ams_center = Image.open(os.getcwd() + "\Amsterdam_Prettymaps_Tijuca.png")
+        img_ams_center = Image.open(os.getcwd() + "/Amsterdam_Prettymaps_Tijuca.png")
         st.image(img_ams_center)
     with st.expander("Openstreetmap picture of Amsterdam streets"):
-        img_ams_streets = Image.open(os.getcwd() + "\Amsterdam_StreetMap.png")
+        img_ams_streets = Image.open(os.getcwd() + "/Amsterdam_StreetMap.png")
         st.image(img_ams_streets)
 
     with st.expander("List of touristic buildings in Amsterdam"):
